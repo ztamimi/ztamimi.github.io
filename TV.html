@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Testing Audio and Video elements in HTML5</title>
+</head>
+<body>
+
+<form>
+<span>My peer id: <input id="myIdTxt" value="" disabled></span>
+<br><br>
+<span>Connect to: <input id="otherIdTxt" value=""> <input type="button" value="connect" id="connectBtn">
+<br>
+</form>
+<br>
+
+<form>
+<video controls id="videoCtrl">
+<source src="video/The Best of Molecular Gastronomy at MolecularRecipes.com.mp4" type="video/mp4">
+your browser does not support the video tag.
+</video>
+</form>
+
+<script src="http://cdn.peerjs.com/0.3/peer.min.js"></script>
+<script src="js/TvCommunicate.js"></script>
+
+</body>
+</html>

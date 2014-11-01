@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Testing Audio and Video elements in HTML5</title>
+</head>
+<body>
+
+<form>
+<span>My peer id: <input id="myIdTxt" value="" disabled></span>
+<br><br>
+<span>Connect to: <input id="otherIdTxt" value=""> <input type="button" value="connect" id="connectBtn">
+<br>
+</form>
+<br>
+<form>
+<input type="button" id="plusBtn" class="volCtrlClass" value="+">
+<input type="button" id="minusBtn" class="volCtrlClass" value="-">
+<input type="number" id="volumeHidden" value=1>
+</form>
+
+<script src="http://cdn.peerjs.com/0.3/peer.min.js"></script>
+<script src="js/remoteCommunicate.js"></script>
+
+</body>
+</html>
