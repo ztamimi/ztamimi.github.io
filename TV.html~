@@ -1,6 +1,7 @@
 <html>
 <head>
 <title>Testing Audio and Video elements in HTML5</title>
+<script type="text/javascript" src="http://l2.io/ip.js?var=myIp"></script>
 </head>
 <body>
 

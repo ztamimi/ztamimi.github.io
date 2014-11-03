@@ -16,7 +16,7 @@
 <input type="button" id="plusBtn" class="volCtrlClass" value="+">
 <br><br>
 <input type="button" id="minusBtn" class="volCtrlClass" value="-">
-<br><br>
+<br>
 <input type="number" id="volumeHidden" value=1>
 </form>
 
