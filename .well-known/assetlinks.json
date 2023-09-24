@@ -1,0 +1,11 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.algorythmix.ezyform",
+        "sha256_cert_fingerprints":
+          ["C4:7F:FF:60:D0:B3:D0:76:F3:88:73:9B:2F:3F:07:9F:65:71:FC:B9:92:11:B3:EA:70:55:EB:2D:55:E2:A6:37"]
+      }
+    }
+  ]
